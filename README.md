@@ -18,7 +18,14 @@ The Framework enables its users to securely store relevant information about a p
 
 ![decentralized reputation framework schema](diagrams/decentralized-reputation-framework-schema.png)
 
-- Mobile apps: iOS - https://itunes.apple.com/us/app/monetha/id1351311808, Android - https://play.google.com/store/apps/details?id=com.monetha.app;
-- Payment gateway: https://www.monetha.io/e-commerce;
+### Framework
+
 - Payments layer: https://github.com/monetha/payment-layer;
 - Reputation layer: https://github.com/monetha/reputation-layer;
+
+### Example applications
+* Mobile apps: iOS - https://itunes.apple.com/us/app/monetha/id1351311808, Android - https://play.google.com/store/apps/details?id=com.monetha.app;
+* Payment gateway: https://www.monetha.io/e-commerce;
+* ICO analyzer: 
+  * Website: https://icoanalyzer.monetha.io
+  * Source code: https://github.com/monetha/ico-analyzer-web-app

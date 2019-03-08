@@ -4,30 +4,35 @@ We are aiming to increase the confidence and probability of success for any inte
 
 The Framework enables its users to securely store relevant information about a person or thing and lets them access it before initiating a transaction. That way they can evaluate how trustworthy the other party is in order to confidently meet their expectations.
 
-## Key Principles
+#### Key Principles
 
-- Censorship resistant: the Framework is secure, immune to a single point of control or failure.
+- **Censorship resistant**: the framework is secure, immune to a single point of control or failure.
 
-- Universal: the reputation is not tied to a single website or service – it can be used everywhere.
+- **Universal**: user data (incl. reputation insights) is not tied to a single service provider – it can be used everywhere.
 
-- Transferable: once established, the reputation can be effortlessly moved across various platforms.
+- **Transferable**: once established, the reputational data can be effortlessly moved across various platforms or service providers.
 
-- Transparent: save for sensitive information, all interactions are public and can be verified by anyone.
+- **Transparent**: all interactions with the framework are public and can be verified by anyone.
 
-## Framework Components
+- **Secure**: safe for storage and exchange of sensitive information. 
 
-![decentralized reputation framework schema](diagrams/decentralized-reputation-framework-schema.png)
+#### Framework Layers
+![framework layers](diagrams/framework-layers.png)
 
-### Framework
-
-- Payments layer: https://github.com/monetha/payment-layer;
+#### Implementation
+- Action (Payment) layer: https://github.com/monetha/payment-layer;
 - Reputation layer: https://github.com/monetha/reputation-layer;
 
-### Example applications
-* Mobile apps: 
+## Monetha Platform
+Our platform utilizes framework capabilities to deliver solution for e-commerce participants.
+
+![decentralized reputation platform schema](diagrams/decentralized-reputation-platform-schema.png)
+
+#### Applications
+* Mobile Wallet to perform payments and manage reputation profile: 
   * iOS - https://itunes.apple.com/us/app/monetha/id1351311808
   * Android - https://play.google.com/store/apps/details?id=com.monetha.app;
-* Payment gateway: https://www.monetha.io/e-commerce;
-* ICO analyzer: 
+* Payment gateway to facilitate ETH payments: https://www.monetha.io/e-commerce;
+* dApp "ICO analyzer" to store censorship resistant reputation of any ICO: 
   * Website: https://icoanalyzer.monetha.io
   * Source code: https://github.com/monetha/ico-analyzer-web-app

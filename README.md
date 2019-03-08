@@ -4,7 +4,7 @@ We are aiming to increase the confidence and probability of success for any inte
 
 The Framework enables its users to securely store relevant information about a person or thing and lets them access it before initiating a transaction. That way they can evaluate how trustworthy the other party is in order to confidently meet their expectations.
 
-#### Key Principles
+### Key Principles
 
 - **Censorship resistant**: the framework is secure, immune to a single point of control or failure.
 
@@ -16,10 +16,10 @@ The Framework enables its users to securely store relevant information about a p
 
 - **Secure**: safe for storage and exchange of sensitive information. 
 
-#### Framework Layers
+### Framework Layers
 ![framework layers](diagrams/framework-layers.png)
 
-#### Implementation
+### Implementation
 - Action (Payment) layer: https://github.com/monetha/payment-layer;
 - Reputation layer: https://github.com/monetha/reputation-layer;
 
@@ -28,7 +28,7 @@ Our platform utilizes framework capabilities to deliver solution for e-commerce 
 
 ![decentralized reputation platform schema](diagrams/decentralized-reputation-platform-schema.png)
 
-#### Applications
+### Applications
 * Mobile Wallet to perform payments and manage reputation profile: 
   * iOS - https://itunes.apple.com/us/app/monetha/id1351311808
   * Android - https://play.google.com/store/apps/details?id=com.monetha.app;

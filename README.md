@@ -45,4 +45,4 @@ Our platform utilizes framework capabilities to deliver solution for e-commerce 
 - Payment gateway to facilitate ETH payments: [https://www.monetha.io/e-commerce](https://www.monetha.io/e-commerce);
 - dApp "ICO analyzer" to store censorship resistant reputation of any ICO:
   - Website: [https://icoanalyzer.monetha.io](https://icoanalyzer.monetha.io)
-  - Source code: [https://icoanalyzer.monetha.io](https://github.com/monetha/ico-analyzer-web-app)
+  - Source code: [https://github.com/monetha/ico-analyzer-web-app](https://github.com/monetha/ico-analyzer-web-app)

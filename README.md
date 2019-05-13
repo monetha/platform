@@ -29,7 +29,7 @@ The Framework enables its users to securely store relevant information about a p
 ### Implementations
 
 - Action (Payment) layer: https://github.com/monetha/payment-layer;
-- Reputation layer: https://github.com/monetha/reputation-layer;
+- Verifiable data (Reputation) layer: https://github.com/monetha/reputation-layer;
 
 ## Monetha Platform
 

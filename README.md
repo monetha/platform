@@ -6,7 +6,6 @@ The Framework enables its users to securely store relevant information about a p
 
 - [Key Principles](#key-principles)
 - [Framework Layers](#framework-layers)
-  - [Implementations](#implementations)
 - [Monetha Platform](#monetha-platform)
   - [Applications](#applications)
 
@@ -26,10 +25,25 @@ The Framework enables its users to securely store relevant information about a p
 
 ![framework layers](diagrams/framework-layers.png)
 
-### Implementations
+- [Action layer](https://github.com/monetha/payment-layer)
+  - customizable business logic layer
+  - uses underlying components to facilitate specific positive or negative (e.g. payments, claims) with built-in reputation scoring
 
-- Action (Payment) layer: https://github.com/monetha/payment-layer;
-- Verifiable data (Reputation) layer: https://github.com/monetha/reputation-layer;
+- Scoring layer
+  - Uses Evidence Based Subjective Logic algorithm
+  - Based on underlying “data” management infrastructure
+  - Robustness against score counterfeiting attacks
+
+- [Verifiable Data layer](https://github.com/monetha/reputation-layer)
+  - data storage schemas (standardization)
+  - contextual data access/exchange logic
+  - private data handling: encryption, exchange
+  - verifiable data source evidences
+
+- Distributed ledger Ethereum, Quorum
+  - storage security and data ownership
+  - low level access control
+  - incentivization (depends on public/permissioned)
 
 ## Monetha Platform
 

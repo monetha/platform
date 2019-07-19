@@ -29,7 +29,7 @@ The Framework enables its users to securely store relevant information about a p
   - customizable business logic layer
   - uses underlying components to facilitate specific positive or negative (e.g. payments, claims) with built-in reputation scoring
 
-- Scoring layer
+- [Scoring layer](https://www.monetha.io/monetha-scoring-layer.pdf)
   - Uses Evidence Based Subjective Logic algorithm
   - Based on underlying “data” management infrastructure
   - Robustness against score counterfeiting attacks

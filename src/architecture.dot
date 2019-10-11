@@ -1,0 +1,68 @@
+/*
+  This is a graphviz dot file
+  See https://www.graphviz.org/doc/info/ for help
+*/
+digraph{
+  graph [fontname = "monospace", fontsize="10", color="black", fontcolor="blacks"];
+  node [fontname = "monospace", shape="box", style=filled, margin=0, width=1.5, height=0.8];
+  edge [fontname = "monospace",color="grey",fontsize="10"];
+  /* 
+    define components in the clusters they belong to
+  */
+  
+
+  
+  subgraph cluster_verfifiableData{
+    label="Monetha's Verifiable Data Layer";
+    go_verifiable_data[label="Golang \nSDK"];
+    js_verifiable_data[label="Javascript \nSDK"];
+    "utils"[label="CLI \n utils"];
+
+    contracts[label="Smart \n contracts"]
+
+    go_verifiable_data -> contracts
+    js_verifiable_data -> contracts
+  }
+  
+  subgraph cluster_customersBackend{
+    label="Your backend"
+
+    "go-api"[label="API \n Golang"]
+    "node-api"[label="API \n NodeJS"]
+    "core-api"[label="API \n .NET Core"]
+
+    "someotherapis"[label="..."]
+    "RDS" [shape="cylinder"];
+  }
+  
+  subgraph cluster_customersFrontEnd {
+    label="Your frontend"
+
+    "web-app"
+    "mobile-app"
+  }
+
+  subgraph cluster_decetralizedNetwork{
+    node [fontname = "monospace", shape="box", style=filled, margin=0, width=2, height=0.8];
+    label="Decentralized Network";
+    ipfs [label="IPFS"];
+    ethereum [label="ethereum"];
+    quorum [label="Quorum \n private ledger"];
+    besu [label="Hyperledger BESU \n private ledger"];
+  }
+
+  "web-app" -> "go-api"
+
+  "go-api" -> go_verifiable_data
+  "node-api" -> js_verifiable_data
+  "core-api" -> "utils"
+
+  "web-app" -> js_verifiable_data
+
+  contracts -> quorum
+  contracts -> besu
+  contracts -> ethereum
+  go_verifiable_data -> ipfs
+  js_verifiable_data -> ipfs
+
+}
